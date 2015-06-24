@@ -1,0 +1,20 @@
+{
+    "name": "imagefirst/imagefirst-api-sdk",
+    "description": "Customer API SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Maier",
+            "email": "dave@jacquette.com"
+        }
+    ],
+    "require": {
+        "mashape/unirest-php": "^2.6"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "ImageFIRST\\": "src\\ImageFIRST"
+        }
+    }
+}
